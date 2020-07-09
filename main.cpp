@@ -1,13 +1,8 @@
+#include <stdio.h>
+#include "sum.h"
 
-# include "sum.h"
-
-int sum(int n) {
-    int result = 0;
-
-    for(int i=1 ; i<=n ; i++) {
-        result += i;
-    }
-
-    return result;
+int main(){
+	int s = sum(10);
+	printf("sum = %d\n", s);
 }
 
